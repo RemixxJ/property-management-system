@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F2F5;
+    min-width: 1400px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .el-main {
+    padding: 16px !important;
+  }
+  
+  .el-menu {
+    width: 100%;
+    overflow: hidden;
+    // height: calc(100vh - 60px);
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+  .el-message {
+    z-index: 1000002 !important;
+  }
+  
+  .v-modal {
+    z-index: 300 !important;
+  }
+  
+  .el-select-dropdown {
+    z-index: 1000 !important;
+  }
+  
+  .upload-dialog {
+    z-index: 1000 !important;
+  }
+  
+  .editor-box {
+    //编辑器层级
+    z-index: 100;
+  }
